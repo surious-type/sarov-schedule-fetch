@@ -1,0 +1,47 @@
+name: Fetch Sarov schedule
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "2 * * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sarov-schedule-fetch
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: [self-hosted, linux, x64]
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        run: |
+          python3 -m venv .venv
+          . .venv/bin/activate
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Fetch live schedule
+        run: |
+          . .venv/bin/activate
+          python fetch_schedule.py
+
+      - name: Upload short-lived artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sarov-schedule
+          path: output/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
+
+      - name: Remove local output
+        if: always()
+        run: rm -rf output
