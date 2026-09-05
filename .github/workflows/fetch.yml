@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   fetch:
-    runs-on: [self-hosted, linux, x64]
+    runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
@@ -41,7 +41,3 @@ jobs:
           retention-days: 1
           compression-level: 0
           if-no-files-found: error
-
-      - name: Remove local output
-        if: always()
-        run: rm -rf output
