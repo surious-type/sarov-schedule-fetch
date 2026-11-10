@@ -29,6 +29,26 @@
       },
       "ambiguous_cells": [],
       "errors": []
+    },
+    "2026-11-16/2026-11-21": {
+      "status": "verified",
+      "verified_at": "2026-11-10T23:24:00+03:00",
+      "scope": "all six pages of week 12 PDF, all future events",
+      "pdf": "12_2_курс_12_16-21_ноя.pdf",
+      "pdf_sha256": "",
+      "expected_events": 19,
+      "calendar_events": {
+        "Пары": 15,
+        "Практика": 4,
+        "Встречи МГУ": 0
+      },
+      "operations": {
+        "created": 0,
+        "updated": 0,
+        "deleted": 0
+      },
+      "ambiguous_cells": [],
+      "errors": []
     }
   }
 }
