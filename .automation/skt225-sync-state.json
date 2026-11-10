@@ -5,9 +5,9 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 13727136245,
-    "zip_sha256": "476e5adda8307acf5474a9a3c560a8bbdaef54b0524024556c0c102976299823",
-    "fetched_at": "2026-11-10T01:30:50.761157Z"
+    "artifact_id": 13787953397,
+    "zip_sha256": "963bc48fdb90d246e4f1d367f1092af73645ebbb398e346ef9102281345837f7",
+    "fetched_at": "2026-11-10T17:49:57.044697Z"
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -47,6 +47,31 @@
         "updated": 0,
         "deleted": 0
       },
+      "ambiguous_cells": [],
+      "errors": []
+    },
+    "2026-11-23/2026-11-28": {
+      "status": "verified",
+      "verified_at": "2026-11-11T00:25:00+03:00",
+      "scope": "all six pages; only SKT-225 and explicitly merged cells; excluded blacklisted classes",
+      "pdf": "13_2_курс_13_23-28_ноя.pdf",
+      "pdf_sha256": "a693d0763c394e971c79d1071ffba5d0ed703eee446b40070b02fd9ec3659dd6",
+      "expected_events": 9,
+      "calendar_events": {
+        "Пары": 5,
+        "Практика": 4,
+        "Встречи МГУ": 0
+      },
+      "operations": {
+        "created": 3,
+        "updated": 0,
+        "deleted": 0
+      },
+      "created_event_ids": [
+        "d25iv9kuk4ivbuf88psdkhf5ic",
+        "fh1h70ocf9299ehllafav40j5s",
+        "7db6tf2ssoaosajm1ijpl5bs7c"
+      ],
       "ambiguous_cells": [],
       "errors": []
     }
