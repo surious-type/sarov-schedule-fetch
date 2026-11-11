@@ -5,9 +5,9 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 13787953397,
-    "zip_sha256": "963bc48fdb90d246e4f1d367f1092af73645ebbb398e346ef9102281345837f7",
-    "fetched_at": "2026-11-10T17:49:57.044697Z"
+    "artifact_id": 13812946214,
+    "zip_sha256": "af83d4d0c26185412234216212a2a03f4bbe9a2c84071e80588b32d22ca65022",
+    "fetched_at": "2026-11-10T23:21:00Z"
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -124,6 +124,26 @@
       "expected_events": 19,
       "calendar_events": {
         "Пары": 15,
+        "Практика": 4,
+        "Встречи МГУ": 0
+      },
+      "operations": {
+        "created": 0,
+        "updated": 0,
+        "deleted": 0
+      },
+      "ambiguous_cells": [],
+      "errors": []
+    },
+    "2026-12-21/2026-12-26": {
+      "status": "verified",
+      "verified_at": "2026-11-11T04:20:24+03:00",
+      "scope": "all six pages, SKT-225 and explicitly merged cells; excluded blacklisted seminars",
+      "pdf": "17_2_курс_17_21-26_дек.pdf",
+      "pdf_sha256": "65b298c4a20b1e6ffacfb7313b8b687150445569a4516d370c17d5171041fd0f",
+      "expected_events": 9,
+      "calendar_events": {
+        "Пары": 5,
         "Практика": 4,
         "Встречи МГУ": 0
       },
