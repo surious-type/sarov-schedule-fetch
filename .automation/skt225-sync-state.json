@@ -5,9 +5,9 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 13812946214,
-    "zip_sha256": "af83d4d0c26185412234216212a2a03f4bbe9a2c84071e80588b32d22ca65022",
-    "fetched_at": "2026-11-10T23:21:00Z"
+    "artifact_id": 13832838776,
+    "zip_sha256": "aeb51a545c6675eb04c8ffae5fbd2ecd8ca3d8cd514889789996f500d4c0bd15",
+    "fetched_at": "2026-11-11T06:18:44Z"
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -52,28 +52,28 @@
     },
     "2026-11-23/2026-11-28": {
       "status": "verified",
-      "verified_at": "2026-11-11T00:25:00+03:00",
-      "scope": "all six pages; only SKT-225 and explicitly merged cells; excluded blacklisted classes",
+      "verified_at": "2026-11-11T10:25:42+03:00",
+      "scope": "all six pages; six expected events after blacklist including user-confirmed exclusion of Численные методы механики сплошных сред; all three calendars re-read after deletion",
       "pdf": "13_2_курс_13_23-28_ноя.pdf",
       "pdf_sha256": "a693d0763c394e971c79d1071ffba5d0ed703eee446b40070b02fd9ec3659dd6",
-      "expected_events": 9,
+      "expected_events": 6,
       "calendar_events": {
-        "Пары": 5,
+        "Пары": 2,
         "Практика": 4,
         "Встречи МГУ": 0
       },
       "operations": {
-        "created": 3,
+        "created": 0,
         "updated": 0,
-        "deleted": 0
+        "deleted": 3
       },
-      "created_event_ids": [
+      "ambiguous_cells": [],
+      "errors": [],
+      "deleted_event_ids": [
         "d25iv9kuk4ivbuf88psdkhf5ic",
         "fh1h70ocf9299ehllafav40j5s",
         "7db6tf2ssoaosajm1ijpl5bs7c"
-      ],
-      "ambiguous_cells": [],
-      "errors": []
+      ]
     },
     "2026-11-30/2026-12-05": {
       "status": "verified",
