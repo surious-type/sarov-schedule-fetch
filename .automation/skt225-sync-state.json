@@ -114,6 +114,26 @@
       },
       "ambiguous_cells": [],
       "errors": []
+    },
+    "2026-12-14/2026-12-19": {
+      "status": "verified",
+      "verified_at": "2026-11-11T03:29:24+03:00",
+      "scope": "all six pages; SKT-225 and explicitly merged cells; blacklisted seminars excluded",
+      "pdf": "16_2_курс_16_14-19_дек.pdf",
+      "pdf_sha256": "8ad88c26993a4bf414c9b6308051a65e60c7d8d2f8934bcc1033139a9be00402",
+      "expected_events": 19,
+      "calendar_events": {
+        "Пары": 15,
+        "Практика": 4,
+        "Встречи МГУ": 0
+      },
+      "operations": {
+        "created": 0,
+        "updated": 0,
+        "deleted": 0
+      },
+      "ambiguous_cells": [],
+      "errors": []
     }
   }
 }
