@@ -5,9 +5,9 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 13832838776,
-    "zip_sha256": "aeb51a545c6675eb04c8ffae5fbd2ecd8ca3d8cd514889789996f500d4c0bd15",
-    "fetched_at": "2026-11-11T06:18:44Z"
+    "artifact_id": 13938037040,
+    "zip_sha256": "bba82c1a876af9a543952ffdaef95641bf578e68d750aaeed60f2e18e4737381",
+    "fetched_at": "2026-11-12T12:27:19Z"
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -32,10 +32,10 @@
     },
     "2026-11-16/2026-11-21": {
       "status": "verified",
-      "verified_at": "2026-11-10T23:24:00+03:00",
-      "scope": "all six pages of week 12 PDF, all future events",
+      "verified_at": "2026-11-12T15:27:19+03:00",
+      "scope": "all six pages of updated week 12 PDF; all future events; all three calendars fully paginated; 15 pairs, 4 practice, 0 meetings; no changes needed",
       "pdf": "12_2_курс_12_16-21_ноя.pdf",
-      "pdf_sha256": "46004a497eb3164947d6556b7510aa348a9c9fc694d0f2aac9f194ac308d30b6",
+      "pdf_sha256": "5c916899be22b99570dcf7223e261284d6a066de320ae45614b5fa5e4ab589a6",
       "expected_events": 19,
       "calendar_events": {
         "Пары": 15,
