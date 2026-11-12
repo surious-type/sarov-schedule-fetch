@@ -5,9 +5,10 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 13938037040,
-    "zip_sha256": "bba82c1a876af9a543952ffdaef95641bf578e68d750aaeed60f2e18e4737381",
-    "fetched_at": "2026-11-12T12:27:19Z"
+    "artifact_id": 13973468848,
+    "zip_sha256": "67150fd954d765d616d6806d9f343f682bc20b96ca9c792ddb004ca1ffbaba4b",
+    "fetched_at": "2026-11-12T18:55:40Z",
+    "note": "Artifact changed, but all 8 future-week PDF SHA-256 hashes match previously verified source; no calendar reread required."
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
