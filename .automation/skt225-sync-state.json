@@ -5,10 +5,10 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 13973468848,
-    "zip_sha256": "67150fd954d765d616d6806d9f343f682bc20b96ca9c792ddb004ca1ffbaba4b",
-    "fetched_at": "2026-11-12T18:55:40Z",
-    "note": "Artifact changed, but all 8 future-week PDF SHA-256 hashes match previously verified source; no calendar reread required."
+    "artifact_id": 14056197808,
+    "zip_sha256": "2df0ccbc62b9fe75f6162c1b164d2d0edc669cf691eda7025d589d99faf7f2da",
+    "fetched_at": "2026-11-13T21:23:15Z",
+    "note": "All 18 PDFs validated; week 12 PDF changed and fully reconciled; other seven future-week PDF hashes unchanged."
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -33,10 +33,10 @@
     },
     "2026-11-16/2026-11-21": {
       "status": "verified",
-      "verified_at": "2026-11-12T15:27:19+03:00",
-      "scope": "all six pages of updated week 12 PDF; all future events; all three calendars fully paginated; 15 pairs, 4 practice, 0 meetings; no changes needed",
+      "verified_at": "2026-11-14T00:23:15+03:00",
+      "scope": "all six pages; all three calendars fully paginated; 19 expected events; 8 changed room locations confirmed by individual reads",
       "pdf": "12_2_курс_12_16-21_ноя.pdf",
-      "pdf_sha256": "5c916899be22b99570dcf7223e261284d6a066de320ae45614b5fa5e4ab589a6",
+      "pdf_sha256": "54fc2f084fb3b6f16077ee0f9b69df1eb17f235ff2b1977a5e537313a56e269a",
       "expected_events": 19,
       "calendar_events": {
         "Пары": 15,
@@ -45,11 +45,21 @@
       },
       "operations": {
         "created": 0,
-        "updated": 0,
+        "updated": 8,
         "deleted": 0
       },
       "ambiguous_cells": [],
-      "errors": []
+      "errors": [],
+      "updated_event_ids": [
+        "4qv3mtm35cmeveabjkq8qrere0_20261119T060000Z",
+        "jd7r8c0bqrht6313fujd2tvpo0_20261119T074500Z",
+        "bp2islng56pbkgejaejqiqi0o8_20261119T093000Z",
+        "jd7r8c0bqrht6313fujd2tvpo0_20261120T074500Z",
+        "bp2islng56pbkgejaejqiqi0o8_20261120T093000Z",
+        "4qv3mtm35cmeveabjkq8qrere0_20261121T060000Z",
+        "jd7r8c0bqrht6313fujd2tvpo0_20261121T074500Z",
+        "bp2islng56pbkgejaejqiqi0o8_20261121T093000Z"
+      ]
     },
     "2026-11-23/2026-11-28": {
       "status": "verified",
