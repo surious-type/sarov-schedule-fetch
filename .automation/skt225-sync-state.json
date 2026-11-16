@@ -5,10 +5,10 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 14141552220,
-    "zip_sha256": "f08ac7a9955f439a125a4c75572de1b5c91d50a24f4c268fdcc30069a99d6db7",
-    "fetched_at": "2026-11-15T08:21:24Z",
-    "note": "Artifact created 2026-11-15 04:55:14 Europe/Moscow, expires 2026-11-16 04:55:13; ZIP SHA-256 and CRC verified, 18 PDF size/hash checks passed; all seven future-week PDF hashes identical to prior verified source; no calendar changes made."
+    "artifact_id": 14191972852,
+    "zip_sha256": "85572e3053bb7a4a1c4616fdf77c89263a44cbc588df8830ed05d65fded39efb",
+    "fetched_at": "2026-11-16T02:07:24Z",
+    "note": "Artifact created 2026-11-16T02:07:24Z, expires 2026-11-17T02:07:22Z; GitHub digest matches ZIP SHA-256; ZIP CRC, manifest, raspisanie.html and all 18 PDF sizes and hashes verified. All seven future-week PDF hashes unchanged from prior verified artifact; no calendar changes necessary."
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
