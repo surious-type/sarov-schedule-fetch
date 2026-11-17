@@ -9,7 +9,7 @@
     "zip_sha256": "4dda30e7418c45525ef78c6978d2d0d99c3272930098b44c9a210cbec3da8f06",
     "fetched_at": "2026-11-16T20:28:38Z",
     "expires_at": "2026-11-17T20:28:37Z",
-    "note": "Artifact validated against recorded digest; ZIP CRC, manifest and all 18 second-year PDFs validated. Week 15 reconciled: six missing events created and verified; week 16 pending."
+    "note": "Artifact validated against recorded SHA-256, ZIP CRC, manifest and 18 second-year PDFs; week 16 verified after four erroneous NIR events were removed and individually confirmed absent."
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -136,26 +136,30 @@
       ]
     },
     "2026-12-14/2026-12-19": {
-      "status": "pending",
-      "verified_at": "2026-11-11T03:29:24+03:00",
-      "scope": "all six pages; SKT-225 and explicitly merged cells; blacklisted seminars excluded",
+      "status": "verified",
+      "verified_at": "2026-11-17T08:25:57+03:00",
+      "scope": "All six pages of changed PDF; coordinate-verified SKT-225 and merged cells; all three calendars paginated and re-read after each deletion; 15 expected and 15 confirmed; four incorrectly assigned NIR events from physics columns removed",
       "pdf": "16_2_курс_16_14-19_дек.pdf",
-      "pdf_sha256": "8ad88c26993a4bf414c9b6308051a65e60c7d8d2f8934bcc1033139a9be00402",
-      "expected_events": 19,
+      "pdf_sha256": "5e1e059adf23233591e0d41a008377ab5f0c4e959c53950a02ea92bc1790ff15",
+      "expected_events": 15,
       "calendar_events": {
         "Пары": 15,
-        "Практика": 4,
+        "Практика": 0,
         "Встречи МГУ": 0
       },
       "operations": {
         "created": 0,
         "updated": 0,
-        "deleted": 0
+        "deleted": 4
       },
       "ambiguous_cells": [],
       "errors": [],
-      "previous_verified_pdf_sha256": "8ad88c26993a4bf414c9b6308051a65e60c7d8d2f8934bcc1033139a9be00402",
-      "current_artifact_pdf_sha256": "5e1e059adf23233591e0d41a008377ab5f0c4e959c53950a02ea92bc1790ff15"
+      "deleted_event_ids": [
+        "4mv82d2ufqoavrsljf264vfrhg",
+        "cp0v5uaqp34m34q6at3m1q6lkk",
+        "im2j62l7bsqorjjafdd4mds28g",
+        "de8l2q8u0drpf7snvt1pb5eu40"
+      ]
     },
     "2026-12-21/2026-12-26": {
       "status": "verified",
