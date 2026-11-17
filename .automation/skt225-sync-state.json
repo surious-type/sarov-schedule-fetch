@@ -9,7 +9,7 @@
     "zip_sha256": "4dda30e7418c45525ef78c6978d2d0d99c3272930098b44c9a210cbec3da8f06",
     "fetched_at": "2026-11-16T20:28:38Z",
     "expires_at": "2026-11-17T20:28:37Z",
-    "note": "GitHub digest matched ZIP SHA-256, ZIP CRC passed, manifest and HTML present, all 18 second-year PDFs validated by size and SHA-256. Weeks 14-16 changed; week 14 fully reconciled this run; weeks 15-16 pending."
+    "note": "Artifact validated against recorded digest; ZIP CRC, manifest and all 18 second-year PDFs validated. Week 15 reconciled: six missing events created and verified; week 16 pending."
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -108,26 +108,32 @@
       "errors": []
     },
     "2026-12-07/2026-12-12": {
-      "status": "pending",
-      "verified_at": "2026-11-11T02:22:15+03:00",
-      "scope": "all six pages; SKT-225 and explicitly merged cells; excluded blacklisted disciplines",
+      "status": "verified",
+      "verified_at": "2026-11-17T07:22:07+03:00",
+      "scope": "All six pages of updated PDF; SKT-225 and explicitly merged cells; all three calendars fully paginated before writes and re-read after; 18 expected and 18 confirmed; blacklisted disciplines excluded",
       "pdf": "15_2_курс_15_07-12_дек.pdf",
-      "pdf_sha256": "a3707fd7c8216cde39523fff609b9e56705a6145546874e2d779331a3ebfd7fe",
-      "expected_events": 12,
+      "pdf_sha256": "daf8591ab3e256ef3d991f7bc5af913d1b932b58948268ea3c213704e92e354c",
+      "expected_events": 18,
       "calendar_events": {
-        "Пары": 8,
-        "Практика": 4,
+        "Пары": 10,
+        "Практика": 8,
         "Встречи МГУ": 0
       },
       "operations": {
-        "created": 0,
+        "created": 6,
         "updated": 0,
         "deleted": 0
       },
       "ambiguous_cells": [],
       "errors": [],
-      "previous_verified_pdf_sha256": "a3707fd7c8216cde39523fff609b9e56705a6145546874e2d779331a3ebfd7fe",
-      "current_artifact_pdf_sha256": "daf8591ab3e256ef3d991f7bc5af913d1b932b58948268ea3c213704e92e354c"
+      "created_event_ids": [
+        "srkbvf3fv0cq948raegua5sf8g",
+        "afs6vlrgppkpgvrhn50ji3alck",
+        "qspom9588aonnm0coa09dds9k8",
+        "72ejbiu5rtpnaja8gtsbgqcnjk",
+        "klv5t92virh4l55heidtpiunes",
+        "qn6bm3s0mkrsci1jae8suama7k"
+      ]
     },
     "2026-12-14/2026-12-19": {
       "status": "pending",
