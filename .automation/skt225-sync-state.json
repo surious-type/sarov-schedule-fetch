@@ -120,11 +120,11 @@
       "errors": []
     },
     "2026-12-07/2026-12-12": {
-      "status": "pending",
-      "verified_at": "2026-11-17T07:22:07+03:00",
-      "scope": "All six pages of updated PDF; SKT-225 and explicitly merged cells; all three calendars fully paginated before writes and re-read after; 18 expected and 18 confirmed; blacklisted disciplines excluded",
+      "status": "verified",
+      "verified_at": "2026-11-18T18:21:30+03:00",
+      "scope": "All six pages of current artifact PDF inspected by coordinates for SKT-225 and merged cells; all three calendars paginated to completion; 18 expected events match 18 calendar events; no writes required",
       "pdf": "15_2_курс_15_07-12_дек.pdf",
-      "pdf_sha256": "daf8591ab3e256ef3d991f7bc5af913d1b932b58948268ea3c213704e92e354c",
+      "pdf_sha256": "5b5279fcdc0b967b8a9107782d6bd8708fdc835b6fa1bcb9c7d2da4fc6cdad1e",
       "expected_events": 18,
       "calendar_events": {
         "Пары": 10,
@@ -132,7 +132,7 @@
         "Встречи МГУ": 0
       },
       "operations": {
-        "created": 6,
+        "created": 0,
         "updated": 0,
         "deleted": 0
       },
@@ -146,7 +146,7 @@
         "klv5t92virh4l55heidtpiunes",
         "qn6bm3s0mkrsci1jae8suama7k"
       ],
-      "previous_pdf_sha256": "daf8591ab3e256ef3d991f7bc5af913d1b932b58948268ea3c213704e92e354c"
+      "checked_at": "2026-11-18T18:21:30+03:00"
     },
     "2026-12-14/2026-12-19": {
       "status": "verified",
