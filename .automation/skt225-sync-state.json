@@ -5,11 +5,11 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 14432678806,
-    "zip_sha256": "97834d61af13552119f7ef4a18956eff710611f667d3b97214f7d26dd47fd29f",
-    "fetched_at": "2026-11-18T13:57:54Z",
-    "expires_at": "2026-11-19T13:57:52Z",
-    "note": "Artifact ZIP CRC and all 18 PDFs verified; week Nov 23-28 now verified after deleting four misassigned NIR events with both required provenance markers."
+    "artifact_id": 14532213868,
+    "zip_sha256": "9a0136b6e670a863bb36aa19894f493132ef43ecf4e7cc6c3ce59c9111f52f07",
+    "fetched_at": "2026-11-19T13:05:44Z",
+    "expires_at": "2026-11-20T13:05:44Z",
+    "note": "Artifact integrity verified (digest/CRC/manifest/HTML/all 18 PDFs). Only week Nov 16-21 PDF changed; future Nov 20-21 events fully rechecked."
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -34,10 +34,10 @@
     },
     "2026-11-16/2026-11-21": {
       "status": "verified",
-      "verified_at": "2026-11-14T00:23:15+03:00",
-      "scope": "all six pages; all three calendars fully paginated; 19 expected events; 8 changed room locations confirmed by individual reads",
+      "verified_at": "2026-11-19T19:21:16+03:00",
+      "scope": "All six pages coordinate-inspected for SKT-225; only events ending after 2026-11-19 19:21 MSK eligible. Nov 20-21: 7 expected and 7 matching in Пары, 0 in Практика/Встречи МГУ; three calendars fully paginated. Nov 19 events already ended and not reconciled. No writes.",
       "pdf": "12_2_курс_12_16-21_ноя.pdf",
-      "pdf_sha256": "54fc2f084fb3b6f16077ee0f9b69df1eb17f235ff2b1977a5e537313a56e269a",
+      "pdf_sha256": "170c0ac23eca4bb26fee590e0e51dd0d3af7752fc3cf3e3500776177aaddf9b8",
       "expected_events": 19,
       "calendar_events": {
         "Пары": 15,
@@ -60,7 +60,19 @@
         "4qv3mtm35cmeveabjkq8qrere0_20261121T060000Z",
         "jd7r8c0bqrht6313fujd2tvpo0_20261121T074500Z",
         "bp2islng56pbkgejaejqiqi0o8_20261121T093000Z"
-      ]
+      ],
+      "checked_at": "2026-11-19T19:21:16+03:00",
+      "future_expected_events": 7,
+      "future_calendar_events": {
+        "Пары": 7,
+        "Практика": 0,
+        "Встречи МГУ": 0
+      },
+      "latest_operations": {
+        "created": 0,
+        "updated": 0,
+        "deleted": 0
+      }
     },
     "2026-11-23/2026-11-28": {
       "status": "verified",
