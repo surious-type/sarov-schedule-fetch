@@ -9,7 +9,8 @@
     "zip_sha256": "56bd4d178aa4e848293e2084594beb79b022bc0fd13283fb41668de38e5b21a7",
     "fetched_at": "2026-11-20T11:47:09Z",
     "expires_at": "2026-11-21T11:47:07Z",
-    "note": "Artifact digest, ZIP CRC, manifest, HTML, 18 PDF sizes and hashes verified. Changed future weeks: Dec 7-12, Dec 21-26, Dec 28-30. Dec 7-12 verified against this artifact; remaining changed weeks pending."
+    "note": "Artifact ZIP SHA-256 and CRC verified; manifest, HTML and all 18 PDF sizes and SHA-256 verified. All eight future weeks through Dec 30 verified; changed weeks Dec 7, 21, 28 reverified against artifact 14624849485.",
+    "last_checked_at": "2026-11-20T19:25:54+03:00"
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -212,11 +213,11 @@
       }
     },
     "2026-12-28/2026-12-30": {
-      "status": "pending",
-      "verified_at": "2026-11-11T05:24:25+03:00",
-      "scope": "all three pages, SKT-225 and explicitly merged cells; blacklisted seminars excluded",
+      "status": "verified",
+      "verified_at": "2026-11-20T19:25:54+03:00",
+      "scope": "All three PDF pages coordinate-inspected for SKT-225 and explicitly merged mathematics cells. Five expected classes (Dec 28 one parallel algorithms seminar, Dec 29 four modeling classes) match five confirmed Пары events; Практика and Встречи МГУ empty. Blacklisted seminars excluded. All three calendars paginated; no writes.",
       "pdf": "18_2_курс_18_28-30_дек.pdf",
-      "pdf_sha256": "165c9f0ec7da3ffe63fb2181f4a79bec29c08737d2056b5a361a6fad787a2d36",
+      "pdf_sha256": "1a146ccaebe90830f4dfe48875ad96d497f4820740e78ebf65b03934c80c6d7f",
       "expected_events": 5,
       "calendar_events": {
         "Пары": 5,
@@ -231,7 +232,19 @@
       "ambiguous_cells": [],
       "errors": [],
       "previous_verified_at": "2026-11-11T05:24:25+03:00",
-      "pending_reason": "PDF SHA-256 changed in artifact 14624849485; re-verification required"
+      "checked_at": "2026-11-20T19:25:54+03:00",
+      "latest_operations": {
+        "created": 0,
+        "updated": 0,
+        "deleted": 0
+      },
+      "confirmed_event_ids": [
+        "c5b20k6ml3tbuue71ekl1sht88",
+        "7jig443i5sa0bmb4l25oda43dc",
+        "rjhb22r5anorba0n2fh4144rgk",
+        "ommj7ft28mlob82efhd9qkoltg",
+        "4upe5fs8pf23jaq14rq17fs1m4"
+      ]
     }
   }
 }
