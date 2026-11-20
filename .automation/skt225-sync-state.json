@@ -5,11 +5,11 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 14532213868,
-    "zip_sha256": "9a0136b6e670a863bb36aa19894f493132ef43ecf4e7cc6c3ce59c9111f52f07",
-    "fetched_at": "2026-11-19T13:05:44Z",
-    "expires_at": "2026-11-20T13:05:44Z",
-    "note": "Artifact integrity verified (digest/CRC/manifest/HTML/all 18 PDFs). Only week Nov 16-21 PDF changed; future Nov 20-21 events fully rechecked."
+    "artifact_id": 14624849485,
+    "zip_sha256": "56bd4d178aa4e848293e2084594beb79b022bc0fd13283fb41668de38e5b21a7",
+    "fetched_at": "2026-11-20T11:47:09Z",
+    "expires_at": "2026-11-21T11:47:07Z",
+    "note": "Artifact digest, ZIP CRC, manifest, HTML, 18 PDF sizes and hashes verified. Changed future weeks: Dec 7-12, Dec 21-26, Dec 28-30. Dec 7-12 verified against this artifact; remaining changed weeks pending."
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -126,10 +126,10 @@
     },
     "2026-12-07/2026-12-12": {
       "status": "verified",
-      "verified_at": "2026-11-18T18:21:30+03:00",
-      "scope": "All six pages of current artifact PDF inspected by coordinates for SKT-225 and merged cells; all three calendars paginated to completion; 18 expected events match 18 calendar events; no writes required",
+      "verified_at": "2026-11-20T17:25:52+03:00",
+      "scope": "All six pages coordinate-checked for SKT-225 and explicitly merged math cells; all three calendars paginated to completion; 18 expected and 18 confirmed (10 Пары, 8 Практика, 0 Встречи МГУ). No writes.",
       "pdf": "15_2_курс_15_07-12_дек.pdf",
-      "pdf_sha256": "5b5279fcdc0b967b8a9107782d6bd8708fdc835b6fa1bcb9c7d2da4fc6cdad1e",
+      "pdf_sha256": "3462ade638b19da6cea206f73512b61cfa7c73910bf68863759d1db565439c8b",
       "expected_events": 18,
       "calendar_events": {
         "Пары": 10,
@@ -151,7 +151,12 @@
         "klv5t92virh4l55heidtpiunes",
         "qn6bm3s0mkrsci1jae8suama7k"
       ],
-      "checked_at": "2026-11-18T18:21:30+03:00"
+      "checked_at": "2026-11-20T17:25:52+03:00",
+      "latest_operations": {
+        "created": 0,
+        "updated": 0,
+        "deleted": 0
+      }
     },
     "2026-12-14/2026-12-19": {
       "status": "verified",
@@ -180,7 +185,7 @@
       ]
     },
     "2026-12-21/2026-12-26": {
-      "status": "verified",
+      "status": "pending",
       "verified_at": "2026-11-11T04:20:24+03:00",
       "scope": "all six pages, SKT-225 and explicitly merged cells; excluded blacklisted seminars",
       "pdf": "17_2_курс_17_21-26_дек.pdf",
@@ -197,10 +202,12 @@
         "deleted": 0
       },
       "ambiguous_cells": [],
-      "errors": []
+      "errors": [],
+      "previous_verified_at": "2026-11-11T04:20:24+03:00",
+      "pending_reason": "PDF SHA-256 changed in artifact 14624849485; re-verification required"
     },
     "2026-12-28/2026-12-30": {
-      "status": "verified",
+      "status": "pending",
       "verified_at": "2026-11-11T05:24:25+03:00",
       "scope": "all three pages, SKT-225 and explicitly merged cells; blacklisted seminars excluded",
       "pdf": "18_2_курс_18_28-30_дек.pdf",
@@ -217,7 +224,9 @@
         "deleted": 0
       },
       "ambiguous_cells": [],
-      "errors": []
+      "errors": [],
+      "previous_verified_at": "2026-11-11T05:24:25+03:00",
+      "pending_reason": "PDF SHA-256 changed in artifact 14624849485; re-verification required"
     }
   }
 }
