@@ -185,11 +185,11 @@
       ]
     },
     "2026-12-21/2026-12-26": {
-      "status": "pending",
-      "verified_at": "2026-11-11T04:20:24+03:00",
-      "scope": "all six pages, SKT-225 and explicitly merged cells; excluded blacklisted seminars",
+      "status": "verified",
+      "verified_at": "2026-11-20T18:22:23+03:00",
+      "scope": "All six PDF pages coordinate-inspected for SKT-225 and explicitly merged mathematics cells; all three calendars fully paginated. 9 expected and 9 matching (5 Пары, 4 Практика, 0 Встречи МГУ). No writes.",
       "pdf": "17_2_курс_17_21-26_дек.pdf",
-      "pdf_sha256": "65b298c4a20b1e6ffacfb7313b8b687150445569a4516d370c17d5171041fd0f",
+      "pdf_sha256": "f571652a5b4dc87ca0403a3d297f7abacee530aedbc418d781fbb9c356efe25f",
       "expected_events": 9,
       "calendar_events": {
         "Пары": 5,
@@ -204,7 +204,12 @@
       "ambiguous_cells": [],
       "errors": [],
       "previous_verified_at": "2026-11-11T04:20:24+03:00",
-      "pending_reason": "PDF SHA-256 changed in artifact 14624849485; re-verification required"
+      "checked_at": "2026-11-20T18:22:23+03:00",
+      "latest_operations": {
+        "created": 0,
+        "updated": 0,
+        "deleted": 0
+      }
     },
     "2026-12-28/2026-12-30": {
       "status": "pending",
