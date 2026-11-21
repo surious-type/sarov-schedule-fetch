@@ -5,12 +5,12 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 14624849485,
-    "zip_sha256": "56bd4d178aa4e848293e2084594beb79b022bc0fd13283fb41668de38e5b21a7",
-    "fetched_at": "2026-11-20T11:47:09Z",
-    "expires_at": "2026-11-21T11:47:07Z",
-    "note": "Artifact ZIP SHA-256 and CRC verified; manifest, HTML and all 18 PDF sizes and SHA-256 verified. All eight future weeks through Dec 30 verified; changed weeks Dec 7, 21, 28 reverified against artifact 14624849485.",
-    "last_checked_at": "2026-11-20T19:25:54+03:00"
+    "artifact_id": 14702207152,
+    "zip_sha256": "2efc59d03e2abf3eabc098c63ae26d6f5686258d0dbc91dcdafb0511ea368be8",
+    "fetched_at": "2026-11-21T09:52:14Z",
+    "expires_at": "2026-11-22T09:52:13Z",
+    "note": "New artifact verified (GitHub digest, ZIP CRC, manifest and HTML, 18 PDF sizes and SHA-256). PDF 16 changed and fully reverified against all three calendars: 15 matching events, no writes. PDF 17 changed and requires next-run reconciliation; other future PDF hashes unchanged.",
+    "last_checked_at": "2026-11-21T17:20:42+03:00"
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -161,10 +161,10 @@
     },
     "2026-12-14/2026-12-19": {
       "status": "verified",
-      "verified_at": "2026-11-17T08:25:57+03:00",
-      "scope": "All six pages of changed PDF; coordinate-verified SKT-225 and merged cells; all three calendars paginated and re-read after each deletion; 15 expected and 15 confirmed; four incorrectly assigned NIR events from physics columns removed",
+      "verified_at": "2026-11-21T17:20:42+03:00",
+      "scope": "All six pages coordinate-inspected for SKT-225 and explicitly merged cells. Three calendars fully paginated; 15 expected and 15 matching (Пары 15, Практика 0, Встречи МГУ 0). All 15 events individually re-read to confirm descriptions, teacher, group marker, PDF URL, location, times. Excluded seminars ignored. No writes.",
       "pdf": "16_2_курс_16_14-19_дек.pdf",
-      "pdf_sha256": "5e1e059adf23233591e0d41a008377ab5f0c4e959c53950a02ea92bc1790ff15",
+      "pdf_sha256": "9bcff256424dfa59b9182547e2453e541d77a85fd513b1daba85577a94e37227",
       "expected_events": 15,
       "calendar_events": {
         "Пары": 15,
@@ -183,14 +183,20 @@
         "cp0v5uaqp34m34q6at3m1q6lkk",
         "im2j62l7bsqorjjafdd4mds28g",
         "de8l2q8u0drpf7snvt1pb5eu40"
-      ]
+      ],
+      "checked_at": "2026-11-21T17:20:42+03:00",
+      "latest_operations": {
+        "created": 0,
+        "updated": 0,
+        "deleted": 0
+      }
     },
     "2026-12-21/2026-12-26": {
-      "status": "verified",
+      "status": "pending",
       "verified_at": "2026-11-20T18:22:23+03:00",
       "scope": "All six PDF pages coordinate-inspected for SKT-225 and explicitly merged mathematics cells; all three calendars fully paginated. 9 expected and 9 matching (5 Пары, 4 Практика, 0 Встречи МГУ). No writes.",
       "pdf": "17_2_курс_17_21-26_дек.pdf",
-      "pdf_sha256": "f571652a5b4dc87ca0403a3d297f7abacee530aedbc418d781fbb9c356efe25f",
+      "pdf_sha256": "92f99448f392b2495c6e6aaa4a85d7f42eca5dc9a5c899d567c0a252003634bf",
       "expected_events": 9,
       "calendar_events": {
         "Пары": 5,
@@ -210,7 +216,9 @@
         "created": 0,
         "updated": 0,
         "deleted": 0
-      }
+      },
+      "previous_pdf_sha256": "f571652a5b4dc87ca0403a3d297f7abacee530aedbc418d781fbb9c356efe25f",
+      "pending_reason": "PDF changed in artifact 14702207152; next run must fully reparse and reconcile week 2026-12-21/26"
     },
     "2026-12-28/2026-12-30": {
       "status": "verified",
