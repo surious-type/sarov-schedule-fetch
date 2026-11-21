@@ -9,8 +9,8 @@
     "zip_sha256": "2efc59d03e2abf3eabc098c63ae26d6f5686258d0dbc91dcdafb0511ea368be8",
     "fetched_at": "2026-11-21T09:52:14Z",
     "expires_at": "2026-11-22T09:52:13Z",
-    "note": "New artifact verified (GitHub digest, ZIP CRC, manifest and HTML, 18 PDF sizes and SHA-256). PDF 16 changed and fully reverified against all three calendars: 15 matching events, no writes. PDF 17 changed and requires next-run reconciliation; other future PDF hashes unchanged.",
-    "last_checked_at": "2026-11-21T17:20:42+03:00"
+    "note": "Artifact 14702207152 verified against GitHub digest, ZIP CRC, manifest, HTML and 18 PDF hashes. Changed weeks 14-19 Dec and 21-26 Dec fully reverified; all future weeks now verified against this artifact.",
+    "last_checked_at": "2026-11-21T18:23:54+03:00"
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -192,9 +192,9 @@
       }
     },
     "2026-12-21/2026-12-26": {
-      "status": "pending",
-      "verified_at": "2026-11-20T18:22:23+03:00",
-      "scope": "All six PDF pages coordinate-inspected for SKT-225 and explicitly merged mathematics cells; all three calendars fully paginated. 9 expected and 9 matching (5 Пары, 4 Практика, 0 Встречи МГУ). No writes.",
+      "status": "verified",
+      "verified_at": "2026-11-21T18:23:54+03:00",
+      "scope": "All six pages coordinate-inspected for SKT-225 and explicitly merged math cells; all three calendars fully paginated. 9 expected and 9 matching (5 Пары, 4 Практика, 0 Встречи МГУ); blacklisted disciplines excluded. No writes.",
       "pdf": "17_2_курс_17_21-26_дек.pdf",
       "pdf_sha256": "92f99448f392b2495c6e6aaa4a85d7f42eca5dc9a5c899d567c0a252003634bf",
       "expected_events": 9,
@@ -211,14 +211,24 @@
       "ambiguous_cells": [],
       "errors": [],
       "previous_verified_at": "2026-11-11T04:20:24+03:00",
-      "checked_at": "2026-11-20T18:22:23+03:00",
+      "checked_at": "2026-11-21T18:23:54+03:00",
       "latest_operations": {
         "created": 0,
         "updated": 0,
         "deleted": 0
       },
       "previous_pdf_sha256": "f571652a5b4dc87ca0403a3d297f7abacee530aedbc418d781fbb9c356efe25f",
-      "pending_reason": "PDF changed in artifact 14702207152; next run must fully reparse and reconcile week 2026-12-21/26"
+      "confirmed_event_ids": [
+        "qbcsq69hunf67fa80r06clmbhk",
+        "md36u9n0ou4d25fn5c58gees24",
+        "qas4ci9p8dl862db41i51eh9qk",
+        "852681813sgb4av15tokbd3154",
+        "2ofjt3tndo309ln6jrd6v6s968",
+        "ph01d0537m48glm9eqldilivgo",
+        "4af55c9oc0qq8fucukfor72kes",
+        "0ieiq7pmhr45in86p736b2hsi8",
+        "21fknnt4ckvk8f58ndqfv49osg"
+      ]
     },
     "2026-12-28/2026-12-30": {
       "status": "verified",
