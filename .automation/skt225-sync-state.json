@@ -5,12 +5,12 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 14702207152,
-    "zip_sha256": "2efc59d03e2abf3eabc098c63ae26d6f5686258d0dbc91dcdafb0511ea368be8",
-    "fetched_at": "2026-11-21T09:52:14Z",
-    "expires_at": "2026-11-22T09:52:13Z",
-    "note": "Artifact 14702207152 verified against GitHub digest, ZIP CRC, manifest, HTML and 18 PDF hashes. Changed weeks 14-19 Dec and 21-26 Dec fully reverified; all future weeks now verified against this artifact.",
-    "last_checked_at": "2026-11-21T18:23:54+03:00"
+    "artifact_id": 14736888817,
+    "zip_sha256": "7851bb781be998a15572e3702e709425847cd9ec29872a4990d2dcce4ffa4d30",
+    "fetched_at": "2026-11-22T03:14:03.711556+00:00",
+    "expires_at": "2026-11-23T03:14:03Z",
+    "note": "Artifact 14736888817 (created 2026-11-22T03:14:04Z) verified: not expired; age under 24h; GitHub SHA-256 matches archive; ZIP CRC passes; manifest.json and raspisanie.html present; all 18 second-course PDFs present and every size/SHA-256 matches manifest. All future PDFs (weeks 13-18) have identical SHA-256 values to the previous verified artifact 14702207152, so no future week became stale.",
+    "last_checked_at": "2026-11-22T11:22:21+03:00"
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -77,7 +77,7 @@
     },
     "2026-11-23/2026-11-28": {
       "status": "verified",
-      "scope": "All six PDF pages coordinate-inspected; SKT-225 column x~282 and physics NIR x~580/712 on Nov 24; all three calendars paginated; two matching classes; four wrongly assigned NIR events deleted and individually re-read as cancelled",
+      "scope": "All six pages of the artifact PDF coordinate-inspected for the SKT-225 column and explicitly merged cells. Monday 23 Nov NIR entries were not restored under the prior user deletion instruction. Eligible expected events: Thu 26 Nov 15:00-16:35 History and methodology of applied mathematics and informatics (cell explicitly merged BM-225/SKT-225), Fri 27 Nov 18:30-20:05 Parallel computations and algorithm analysis (cell explicitly merged BM-225/SKT-225). Three calendars fully paginated: 2 matching events in Пары, 0 in Практика, 0 in Встречи МГУ. Event summaries, times, locations, teachers, group marker and manifest PDF URL match. No writes required.",
       "pdf": "13_2_курс_13_23-28_ноя.pdf",
       "pdf_sha256": "69fef5dc4be5e9025a3abae2dc1db3b281fced3897b3e516d963e5dbb2fb7ce8",
       "expected_events": 2,
@@ -89,7 +89,7 @@
       "operations": {
         "created": 0,
         "updated": 0,
-        "deleted": 4
+        "deleted": 0
       },
       "ambiguous_cells": [],
       "errors": [],
@@ -102,8 +102,9 @@
         "i4d2390p1m5s1519sdd4jijpcc",
         "rn8ooe6vhe6bt66f2hl0i5c3ec"
       ],
-      "checked_at": "2026-11-18T19:28:13+03:00",
-      "verified_at": "2026-11-18T19:28:13+03:00"
+      "checked_at": "2026-11-22T11:22:21+03:00",
+      "verified_at": "2026-11-22T11:22:21+03:00",
+      "artifact_id": 14736888817
     },
     "2026-11-30/2026-12-05": {
       "status": "verified",
