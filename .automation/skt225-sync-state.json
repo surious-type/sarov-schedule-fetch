@@ -5,12 +5,12 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 14736888817,
-    "zip_sha256": "7851bb781be998a15572e3702e709425847cd9ec29872a4990d2dcce4ffa4d30",
-    "fetched_at": "2026-11-22T03:14:03.711556+00:00",
-    "expires_at": "2026-11-23T03:14:03Z",
-    "note": "Artifact 14736888817 (created 2026-11-22T03:14:04Z) verified: not expired; age under 24h; GitHub SHA-256 matches archive; ZIP CRC passes; manifest.json and raspisanie.html present; all 18 second-course PDFs present and every size/SHA-256 matches manifest. All future PDFs (weeks 13-18) have identical SHA-256 values to the previous verified artifact 14702207152, so no future week became stale.",
-    "last_checked_at": "2026-11-22T11:22:21+03:00"
+    "artifact_id": 14752441648,
+    "zip_sha256": "d186d41dc2ecc018963a5d20da1bc356fb8d24926ac5f2c70639704f3b1839f5",
+    "fetched_at": "2026-11-22T11:28:47.094571+00:00",
+    "expires_at": "2026-11-23T11:28:47Z",
+    "note": "Artifact 14752441648 created 2026-11-22T11:28:48Z, unexpired, age under 24h; GitHub digest matches ZIP SHA-256; ZIP CRC, manifest.json, raspisanie.html, all 18 PDFs size and SHA-256 validated. Future weeks 13-18 PDF hashes unchanged against previously verified state; no calendar writes or re-verification needed.",
+    "last_checked_at": "2026-11-22T22:28:06+03:00"
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
