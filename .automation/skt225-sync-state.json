@@ -9,8 +9,8 @@
     "zip_sha256": "b00cb5200993c46661f2b0a6f0522f5573e26c949ec2d2f1aa1e5c0e5ca58d55",
     "fetched_at": "2026-11-24T06:02:09Z",
     "expires_at": "2026-11-25T06:02:08Z",
-    "last_checked_at": "2026-11-24T16:25:02+03:00",
-    "note": "ZIP digest and CRC verified; manifest, HTML and all 18 PDF sizes and hashes verified. Week 13 reconciled; weeks 14–15 pending; weeks 16–18 unchanged PDF hashes, prior verification retained; independent calendar changes outside week 13 not checked."
+    "last_checked_at": "2026-11-25T01:25:02+03:00",
+    "note": "ZIP digest, CRC, manifest, HTML and all 18 PDF sizes and hashes verified. Week 14 reconciled; week 15 pending. Other weeks not rechecked this run."
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -126,11 +126,11 @@
       ]
     },
     "2026-11-30/2026-12-05": {
-      "status": "pending",
-      "verified_at": "2026-11-17T06:21:51+03:00",
-      "scope": "All six PDF pages, SKT-225 and explicitly merged cells; all three calendars read in full; 16 expected and 16 matching events; excluded blacklisted seminars; no changes required",
+      "status": "verified",
+      "verified_at": "2026-11-25T01:25:02+03:00",
+      "scope": "All six pages visually checked by column boundaries and merged cells; all three calendars fully read; 16 expected and 16 matched, all descriptions checked; history class room corrected from Б205 to Б213 and immediately re-read.",
       "pdf": "14_2_курс_14_30_ноя-05_дек.pdf",
-      "pdf_sha256": "d5b71ea6697961800bab92bae15fddf4194074ed19542340a08cd6836d671e76",
+      "pdf_sha256": "276b9f19ed0e0017d246bb8625a38489b10224a1f2aa094c098919b71a82638a",
       "expected_events": 16,
       "calendar_events": {
         "Пары": 12,
@@ -139,13 +139,26 @@
       },
       "operations": {
         "created": 0,
-        "updated": 0,
+        "updated": 1,
         "deleted": 0
       },
       "ambiguous_cells": [],
       "errors": [],
-      "pending_pdf_sha256": "276b9f19ed0e0017d246bb8625a38489b10224a1f2aa094c098919b71a82638a",
-      "pending_artifact_id": 14894044219
+      "checked_at": "2026-11-25T01:25:02+03:00",
+      "artifact_id": 14894044219,
+      "latest_operations": {
+        "created": 0,
+        "updated": 1,
+        "deleted": 0
+      },
+      "confirmed_operations": [
+        {
+          "operation": "update",
+          "calendar_id": "c82aa0f6d5d7c5c163e0d9542f25203f7bf38fa393cb00d85c7523e2a94df0f6@group.calendar.google.com",
+          "event_id": "ava5iq6dk8t5uvugn0k0poqcmc",
+          "location": "Б213"
+        }
+      ]
     },
     "2026-12-07/2026-12-12": {
       "status": "pending",
