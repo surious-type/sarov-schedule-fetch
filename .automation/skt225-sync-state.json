@@ -9,8 +9,8 @@
     "zip_sha256": "b00cb5200993c46661f2b0a6f0522f5573e26c949ec2d2f1aa1e5c0e5ca58d55",
     "fetched_at": "2026-11-24T06:02:09Z",
     "expires_at": "2026-11-25T06:02:08Z",
-    "last_checked_at": "2026-11-25T01:25:02+03:00",
-    "note": "ZIP digest, CRC, manifest, HTML and all 18 PDF sizes and hashes verified. Week 14 reconciled; week 15 pending. Other weeks not rechecked this run."
+    "last_checked_at": "2026-11-25T02:25:03+03:00",
+    "note": "ZIP digest, CRC, manifest, HTML and all 18 PDF sizes and hashes verified. Week 15 reconciled; all six future weeks verified for artifact 14894044219."
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -161,11 +161,11 @@
       ]
     },
     "2026-12-07/2026-12-12": {
-      "status": "pending",
-      "verified_at": "2026-11-20T17:25:52+03:00",
-      "scope": "All six pages coordinate-checked for SKT-225 and explicitly merged math cells; all three calendars paginated to completion; 18 expected and 18 confirmed (10 Пары, 8 Практика, 0 Встречи МГУ). No writes.",
+      "status": "verified",
+      "verified_at": "2026-11-25T02:25:03+03:00",
+      "scope": "All six pages visually checked by column boundaries and merged cells; all three calendars fully read; 18 expected and 18 matched, all 18 individually read for descriptions; seminar room corrected from Б119 to 119 and immediately re-read.",
       "pdf": "15_2_курс_15_07-12_дек.pdf",
-      "pdf_sha256": "3462ade638b19da6cea206f73512b61cfa7c73910bf68863759d1db565439c8b",
+      "pdf_sha256": "b7f8cadf02733ec9091c89a46ec1557d677befb49ab3b182513e27d727d1f54b",
       "expected_events": 18,
       "calendar_events": {
         "Пары": 10,
@@ -174,7 +174,7 @@
       },
       "operations": {
         "created": 0,
-        "updated": 0,
+        "updated": 1,
         "deleted": 0
       },
       "ambiguous_cells": [],
@@ -187,14 +187,21 @@
         "klv5t92virh4l55heidtpiunes",
         "qn6bm3s0mkrsci1jae8suama7k"
       ],
-      "checked_at": "2026-11-20T17:25:52+03:00",
+      "checked_at": "2026-11-25T02:25:03+03:00",
       "latest_operations": {
         "created": 0,
-        "updated": 0,
+        "updated": 1,
         "deleted": 0
       },
-      "pending_pdf_sha256": "b7f8cadf02733ec9091c89a46ec1557d677befb49ab3b182513e27d727d1f54b",
-      "pending_artifact_id": 14894044219
+      "artifact_id": 14894044219,
+      "confirmed_operations": [
+        {
+          "operation": "update",
+          "calendar_id": "c82aa0f6d5d7c5c163e0d9542f25203f7bf38fa393cb00d85c7523e2a94df0f6@group.calendar.google.com",
+          "event_id": "td2iclfrvftam9okvobs7rai1s",
+          "location": "119"
+        }
+      ]
     },
     "2026-12-14/2026-12-19": {
       "status": "verified",
