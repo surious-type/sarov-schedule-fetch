@@ -5,12 +5,12 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 14803710957,
-    "zip_sha256": "bd2fca140af885af624fabaf5b2265350973e921b9c9870ca1e65f629dc7c1e5",
-    "fetched_at": "2026-11-23T09:04:28Z",
-    "expires_at": "2026-11-24T09:04:27Z",
-    "last_checked_at": "2026-11-23T21:21:31+03:00",
-    "note": "ZIP SHA-256 matches GitHub digest; CRC passed; manifest.json and raspisanie.html present; all 18 second-course PDFs match manifest sizes and SHA-256. Week 13 changed, reconciled. Weeks 14-18 PDF hashes unchanged, previous verified statuses retained; independent calendar edits not checked."
+    "artifact_id": 14894044219,
+    "zip_sha256": "b00cb5200993c46661f2b0a6f0522f5573e26c949ec2d2f1aa1e5c0e5ca58d55",
+    "fetched_at": "2026-11-24T06:02:09Z",
+    "expires_at": "2026-11-25T06:02:08Z",
+    "last_checked_at": "2026-11-24T16:25:02+03:00",
+    "note": "ZIP digest and CRC verified; manifest, HTML and all 18 PDF sizes and hashes verified. Week 13 reconciled; weeks 14–15 pending; weeks 16–18 unchanged PDF hashes, prior verification retained; independent calendar changes outside week 13 not checked."
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -77,9 +77,9 @@
     },
     "2026-11-23/2026-11-28": {
       "status": "verified",
-      "scope": "All six PDF pages inspected; only future events after 2026-11-23 21:21 MSK. Friday GPU computing two SKT-225 cells 12:30 and 15:00 created; Thu history room corrected B202; Fri parallel algorithms corrected 18:30-20:05 B202. All four events individually read after writes. All three calendars fully paginated before writes. Excluded disciplines not synchronized; previously removed Monday NIR not restored.",
+      "scope": "All six pages visually checked by column boundaries and merged cells; only events ending after 2026-11-24 16:25:02 MSK reconciled. All three calendars read to end. Four expected events match title, teacher, location, time and PDF URL. No writes.",
       "pdf": "13_2_курс_13_23-28_ноя.pdf",
-      "pdf_sha256": "3e6779fedd6a54f9c7dc8b27c4d4c8bd5ee3f458be19046ee2ca0a9aec7ad195",
+      "pdf_sha256": "3c95aba51252b21af8fa7ff75921aa7fdf08ae11eae457d01232e385708c4805",
       "expected_events": 4,
       "calendar_events": {
         "Пары": 4,
@@ -102,12 +102,12 @@
         "i4d2390p1m5s1519sdd4jijpcc",
         "rn8ooe6vhe6bt66f2hl0i5c3ec"
       ],
-      "checked_at": "2026-11-23T21:25:00+03:00",
-      "verified_at": "2026-11-23T21:25:00+03:00",
-      "artifact_id": 14803710957,
+      "checked_at": "2026-11-24T16:25:02+03:00",
+      "verified_at": "2026-11-24T16:25:02+03:00",
+      "artifact_id": 14894044219,
       "latest_operations": {
-        "created": 2,
-        "updated": 2,
+        "created": 0,
+        "updated": 0,
         "deleted": 0
       },
       "created_event_ids": [
@@ -117,10 +117,16 @@
       "updated_event_ids": [
         "rg6bend0eq7pq4qv7j1v8c3dns",
         "khfd09qil546e6a7l4uvl3lbf0"
+      ],
+      "confirmed_event_ids": [
+        "rg6bend0eq7pq4qv7j1v8c3dns",
+        "cff9iscknri13uav28b2tnrbns",
+        "p835l9uj1oiejjsio22stb1gpc",
+        "khfd09qil546e6a7l4uvl3lbf0"
       ]
     },
     "2026-11-30/2026-12-05": {
-      "status": "verified",
+      "status": "pending",
       "verified_at": "2026-11-17T06:21:51+03:00",
       "scope": "All six PDF pages, SKT-225 and explicitly merged cells; all three calendars read in full; 16 expected and 16 matching events; excluded blacklisted seminars; no changes required",
       "pdf": "14_2_курс_14_30_ноя-05_дек.pdf",
@@ -137,10 +143,12 @@
         "deleted": 0
       },
       "ambiguous_cells": [],
-      "errors": []
+      "errors": [],
+      "pending_pdf_sha256": "276b9f19ed0e0017d246bb8625a38489b10224a1f2aa094c098919b71a82638a",
+      "pending_artifact_id": 14894044219
     },
     "2026-12-07/2026-12-12": {
-      "status": "verified",
+      "status": "pending",
       "verified_at": "2026-11-20T17:25:52+03:00",
       "scope": "All six pages coordinate-checked for SKT-225 and explicitly merged math cells; all three calendars paginated to completion; 18 expected and 18 confirmed (10 Пары, 8 Практика, 0 Встречи МГУ). No writes.",
       "pdf": "15_2_курс_15_07-12_дек.pdf",
@@ -171,7 +179,9 @@
         "created": 0,
         "updated": 0,
         "deleted": 0
-      }
+      },
+      "pending_pdf_sha256": "b7f8cadf02733ec9091c89a46ec1557d677befb49ab3b182513e27d727d1f54b",
+      "pending_artifact_id": 14894044219
     },
     "2026-12-14/2026-12-19": {
       "status": "verified",
@@ -203,7 +213,8 @@
         "created": 0,
         "updated": 0,
         "deleted": 0
-      }
+      },
+      "artifact_id": 14894044219
     },
     "2026-12-21/2026-12-26": {
       "status": "verified",
@@ -242,7 +253,8 @@
         "4af55c9oc0qq8fucukfor72kes",
         "0ieiq7pmhr45in86p736b2hsi8",
         "21fknnt4ckvk8f58ndqfv49osg"
-      ]
+      ],
+      "artifact_id": 14894044219
     },
     "2026-12-28/2026-12-30": {
       "status": "verified",
@@ -276,7 +288,8 @@
         "rjhb22r5anorba0n2fh4144rgk",
         "ommj7ft28mlob82efhd9qkoltg",
         "4upe5fs8pf23jaq14rq17fs1m4"
-      ]
+      ],
+      "artifact_id": 14894044219
     }
   }
 }
