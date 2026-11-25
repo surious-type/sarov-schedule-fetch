@@ -5,12 +5,12 @@
   "source": {
     "repo": "surious-type/sarov-schedule-fetch",
     "artifact_name": "sarov-schedule",
-    "artifact_id": 14894044219,
-    "zip_sha256": "b00cb5200993c46661f2b0a6f0522f5573e26c949ec2d2f1aa1e5c0e5ca58d55",
-    "fetched_at": "2026-11-24T06:02:09Z",
-    "expires_at": "2026-11-25T06:02:08Z",
-    "last_checked_at": "2026-11-25T02:25:03+03:00",
-    "note": "ZIP digest, CRC, manifest, HTML and all 18 PDF sizes and hashes verified. Week 15 reconciled; all six future weeks verified for artifact 14894044219."
+    "artifact_id": 15022622345,
+    "zip_sha256": "81dcecf3dad5c97254f41f920d07c8f40019cf806ff800c34cf014f75481e64d",
+    "fetched_at": "2026-11-25T12:54:32Z",
+    "expires_at": "2026-11-26T12:54:31Z",
+    "last_checked_at": "2026-11-25T18:20:10+03:00",
+    "note": "ZIP digest, CRC, manifest, HTML presence and all 18 PDF sizes and hashes verified. Week 13 reconciled; remaining five future weeks pending revalidation."
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -77,9 +77,9 @@
     },
     "2026-11-23/2026-11-28": {
       "status": "verified",
-      "scope": "All six pages visually checked by column boundaries and merged cells; only events ending after 2026-11-24 16:25:02 MSK reconciled. All three calendars read to end. Four expected events match title, teacher, location, time and PDF URL. No writes.",
+      "scope": "All remaining eligible intervals on pages 3–6 visually checked by column boundaries and merged cells; pages 1–2 and elapsed intervals excluded. All three calendars read to end; four expected events match times, titles, rooms, teachers, group marker and PDF URL. No writes.",
       "pdf": "13_2_курс_13_23-28_ноя.pdf",
-      "pdf_sha256": "3c95aba51252b21af8fa7ff75921aa7fdf08ae11eae457d01232e385708c4805",
+      "pdf_sha256": "6ca4d8f73ff092c4f5a63b209220af02cb4a95e0d3bc08de797c5057bdbe4af9",
       "expected_events": 4,
       "calendar_events": {
         "Пары": 4,
@@ -102,9 +102,9 @@
         "i4d2390p1m5s1519sdd4jijpcc",
         "rn8ooe6vhe6bt66f2hl0i5c3ec"
       ],
-      "checked_at": "2026-11-24T16:25:02+03:00",
-      "verified_at": "2026-11-24T16:25:02+03:00",
-      "artifact_id": 14894044219,
+      "checked_at": "2026-11-25T18:20:10+03:00",
+      "verified_at": "2026-11-25T18:20:10+03:00",
+      "artifact_id": 15022622345,
       "latest_operations": {
         "created": 0,
         "updated": 0,
@@ -126,7 +126,7 @@
       ]
     },
     "2026-11-30/2026-12-05": {
-      "status": "verified",
+      "status": "pending",
       "verified_at": "2026-11-25T01:25:02+03:00",
       "scope": "All six pages visually checked by column boundaries and merged cells; all three calendars fully read; 16 expected and 16 matched, all descriptions checked; history class room corrected from Б205 to Б213 and immediately re-read.",
       "pdf": "14_2_курс_14_30_ноя-05_дек.pdf",
@@ -161,7 +161,7 @@
       ]
     },
     "2026-12-07/2026-12-12": {
-      "status": "verified",
+      "status": "pending",
       "verified_at": "2026-11-25T02:25:03+03:00",
       "scope": "All six pages visually checked by column boundaries and merged cells; all three calendars fully read; 18 expected and 18 matched, all 18 individually read for descriptions; seminar room corrected from Б119 to 119 and immediately re-read.",
       "pdf": "15_2_курс_15_07-12_дек.pdf",
@@ -204,7 +204,7 @@
       ]
     },
     "2026-12-14/2026-12-19": {
-      "status": "verified",
+      "status": "pending",
       "verified_at": "2026-11-21T17:20:42+03:00",
       "scope": "All six pages coordinate-inspected for SKT-225 and explicitly merged cells. Three calendars fully paginated; 15 expected and 15 matching (Пары 15, Практика 0, Встречи МГУ 0). All 15 events individually re-read to confirm descriptions, teacher, group marker, PDF URL, location, times. Excluded seminars ignored. No writes.",
       "pdf": "16_2_курс_16_14-19_дек.pdf",
@@ -237,7 +237,7 @@
       "artifact_id": 14894044219
     },
     "2026-12-21/2026-12-26": {
-      "status": "verified",
+      "status": "pending",
       "verified_at": "2026-11-21T18:23:54+03:00",
       "scope": "All six pages coordinate-inspected for SKT-225 and explicitly merged math cells; all three calendars fully paginated. 9 expected and 9 matching (5 Пары, 4 Практика, 0 Встречи МГУ); blacklisted disciplines excluded. No writes.",
       "pdf": "17_2_курс_17_21-26_дек.pdf",
@@ -277,7 +277,7 @@
       "artifact_id": 14894044219
     },
     "2026-12-28/2026-12-30": {
-      "status": "verified",
+      "status": "pending",
       "verified_at": "2026-11-20T19:25:54+03:00",
       "scope": "All three PDF pages coordinate-inspected for SKT-225 and explicitly merged mathematics cells. Five expected classes (Dec 28 one parallel algorithms seminar, Dec 29 four modeling classes) match five confirmed Пары events; Практика and Встречи МГУ empty. Blacklisted seminars excluded. All three calendars paginated; no writes.",
       "pdf": "18_2_курс_18_28-30_дек.pdf",
