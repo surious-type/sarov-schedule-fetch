@@ -9,8 +9,8 @@
     "zip_sha256": "81dcecf3dad5c97254f41f920d07c8f40019cf806ff800c34cf014f75481e64d",
     "fetched_at": "2026-11-25T12:54:32Z",
     "expires_at": "2026-11-26T12:54:31Z",
-    "last_checked_at": "2026-11-25T19:27:41+03:00",
-    "note": "ZIP SHA-256 matches previously verified digest, CRC, manifest, HTML and all 18 PDF sizes and hashes verified. Weeks 13 and 14 verified; four pending."
+    "last_checked_at": "2026-11-25T23:21:21+03:00",
+    "note": "ZIP SHA-256 matches previously verified digest, CRC, manifest, HTML and all 18 PDF sizes and hashes verified. Weeks 13–15 verified; three pending."
   },
   "weeks": {
     "2026-11-09/2026-11-14": {
@@ -161,11 +161,11 @@
       ]
     },
     "2026-12-07/2026-12-12": {
-      "status": "pending",
-      "verified_at": "2026-11-25T02:25:03+03:00",
-      "scope": "All six pages visually checked by column boundaries and merged cells; all three calendars fully read; 18 expected and 18 matched, all 18 individually read for descriptions; seminar room corrected from Б119 to 119 and immediately re-read.",
+      "status": "verified",
+      "verified_at": "2026-11-25T23:21:21+03:00",
+      "scope": "All six pages checked by coordinate-based table cell extraction including merged cells crossing SKT-225. All three calendars fully read; 18 expected and matched, all 18 individually read for descriptions. No changes required; excluded disciplines ignored.",
       "pdf": "15_2_курс_15_07-12_дек.pdf",
-      "pdf_sha256": "b7f8cadf02733ec9091c89a46ec1557d677befb49ab3b182513e27d727d1f54b",
+      "pdf_sha256": "b7efb5b9902bd7396bd5cb9fbfcaf908774f74ace17fbcbc9aa34eeab366a68e",
       "expected_events": 18,
       "calendar_events": {
         "Пары": 10,
@@ -187,13 +187,13 @@
         "klv5t92virh4l55heidtpiunes",
         "qn6bm3s0mkrsci1jae8suama7k"
       ],
-      "checked_at": "2026-11-25T02:25:03+03:00",
+      "checked_at": "2026-11-25T23:21:21+03:00",
       "latest_operations": {
         "created": 0,
-        "updated": 1,
+        "updated": 0,
         "deleted": 0
       },
-      "artifact_id": 14894044219,
+      "artifact_id": 15022622345,
       "confirmed_operations": [
         {
           "operation": "update",
