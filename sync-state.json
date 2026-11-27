@@ -1,0 +1,35 @@
+{
+  "artifact_id": 15161550539,
+  "digest": "sha256:e90aff891e369b83192fa953ab5ab78dedca3cac9eb2b384c27525a51484d6a2",
+  "checked_at": "2026-11-27T14:23:42+03:00",
+  "weeks": {
+    "13": {
+      "status": "verified",
+      "checked_lessons": 2,
+      "excluded": 5,
+      "operations": [],
+      "errors": [],
+      "ambiguous": [],
+      "verified_event_ids": [
+        "p835l9uj1oiejjsio22stb1gpc",
+        "khfd09qil546e6a7l4uvl3lbf0"
+      ],
+      "calendar_id": "c82aa0f6d5d7c5c163e0d9542f25203f7bf38fa393cb00d85c7523e2a94df0f6@group.calendar.google.com"
+    },
+    "14": {
+      "status": "pending"
+    },
+    "15": {
+      "status": "pending"
+    },
+    "16": {
+      "status": "pending"
+    },
+    "17": {
+      "status": "pending"
+    },
+    "18": {
+      "status": "pending"
+    }
+  }
+}
