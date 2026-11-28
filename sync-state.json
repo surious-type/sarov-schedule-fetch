@@ -1,20 +1,24 @@
 {
-  "artifact_id": 15161550539,
-  "digest": "sha256:e90aff891e369b83192fa953ab5ab78dedca3cac9eb2b384c27525a51484d6a2",
-  "checked_at": "2026-11-27T14:23:42+03:00",
+  "artifact_id": 15225930957,
+  "digest": "sha256:b5eaae3921afc4dcac28967ee3777b449c2a661c59d6d53e8f41bc8958772932",
+  "checked_at": "2026-11-28T04:24:11+03:00",
   "weeks": {
     "13": {
       "status": "verified",
-      "checked_lessons": 2,
-      "excluded": 5,
+      "checked_lessons": 0,
+      "excluded": 4,
       "operations": [],
       "errors": [],
       "ambiguous": [],
-      "verified_event_ids": [
-        "p835l9uj1oiejjsio22stb1gpc",
-        "khfd09qil546e6a7l4uvl3lbf0"
-      ],
-      "calendar_id": "c82aa0f6d5d7c5c163e0d9542f25203f7bf38fa393cb00d85c7523e2a94df0f6@group.calendar.google.com"
+      "verified_event_ids": [],
+      "window_start": "2026-11-28T04:24:11+03:00",
+      "window_end": "2026-11-30T00:00:00+03:00",
+      "pdf_sha256": "6ca4d8f73ff092c4f5a63b209220af02cb4a95e0d3bc08de797c5057bdbe4af9",
+      "calendar_event_counts": [
+        0,
+        0,
+        0
+      ]
     },
     "14": {
       "status": "pending"
